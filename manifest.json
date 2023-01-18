@@ -20,7 +20,7 @@
   ],
   "content_scripts": [
     {
-      "matches": ["https://*.myshopify.com/admin/*"],
+      "matches": ["https://admin.shopify.com/store/*"],
       "js": [
         "src/feature/_search.js",
         "src/feature/_theme.js",
